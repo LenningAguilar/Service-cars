@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Service cars</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOG IN</string>
+    <string name="new_user_register_now">New user? Register now</string>
+    <string name="username">Username</string>
+    <string name="re_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="encuesta">Service survey</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="marca_coches">Car Brands</string>
+    <string name="enviar">Send</string>
+    <string name="encuesta_de_servicio">Service survey</string>
+    <string name="como_catalogas_nuestro_servicio">How do you rate the service?</string>
+    <string name="el_trato_fue_profesional_amable_y_oportuno">Was the treatment professional, friendly and timely?</string>
+    <string name="se_aclararon_todas_las_dudas_de_la_compra_aquilaci_n">Are all the doubts about the purchase/rental clarified?</string>
+    <string name="volver_as_a_nuestra_sucursal_de_automoviles">Would you return to our car branch?</string>
+    <string name="qu_mejoras_harias_al_servicio">What improvements would you make to the service?</string>
+    <string name="ingresa_tu_respuesta">Enter your answer</string>
+    <string name="bueno">Wll</string>
+    <string name="regular">Regular</string>
+    <string name="malo">Bad</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+</resources>

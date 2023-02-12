@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Service cars</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="login">INICIAR SESIÓN</string>
+    <string name="new_user_register_now">¿Nuevo Usuario? Regístrate ahora</string>
+    <string name="username">Nombre completo</string>
+    <string name="re_password">Confirmar contraseña</string>
+    <string name="register">Registrarte</string>
+    <string name="encuesta">Encuesta de servicio</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="marca_coches">Marcas de coches</string>
+    <string name="enviar">Enviar</string>
+    <string name="encuesta_de_servicio">Encuesta de servicio</string>
+    <string name="como_catalogas_nuestro_servicio">¿Cómo catalogas el servicio?</string>
+    <string name="el_trato_fue_profesional_amable_y_oportuno">¿El trato fue profesional, amable y oportuno?</string>
+    <string name="se_aclararon_todas_las_dudas_de_la_compra_aquilaci_n">¿Se aclararon todas las dudas de la compra/aquilación?</string>
+    <string name="volver_as_a_nuestra_sucursal_de_automoviles">¿Volverías a nuestra sucursal de automoviles?</string>
+    <string name="qu_mejoras_harias_al_servicio">¿Qué mejoras harías al servicio?</string>
+    <string name="ingresa_tu_respuesta">Ingresa tu respuesta</string>
+    <string name="bueno">Bueno</string>
+    <string name="regular">Regular</string>
+    <string name="malo">Malo</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+</resources>

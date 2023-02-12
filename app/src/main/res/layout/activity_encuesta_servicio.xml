@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EncuestaServicioActivity"
+    android:background="@drawable/shapes_layout"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBarEncuestaServicio"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shape"
+        app:title="@string/encuesta_de_servicio"
+        app:titleTextColor="@color/white"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="50px"
+            android:stretchColumns="*">
+
+            <TextView
+                android:id="@+id/textViewPregunta1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/como_catalogas_nuestro_servicio"
+                android:textSize="24sp" />
+
+            <RadioGroup
+                android:id="@+id/grupoRadioRespuestasPregunta1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButtonResultadoBuenoPregunta1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="05dp"
+                    android:text="@string/bueno" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonreResultadoRegularPregunta1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="05dp"
+                    android:text="@string/regular" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonMaloBuenoPregunta1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="05dp"
+                    android:text="@string/malo" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewPregunta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/el_trato_fue_profesional_amable_y_oportuno"
+                android:textSize="24sp" />
+
+            <RadioGroup
+                android:id="@+id/grupoRadioRespuestasPregunta2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButtonResultadoSiPregunta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="05dp"
+                    android:text="@string/si" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonreResultadoNoPregunta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="05dp"
+                    android:text="@string/no" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewPregunta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/se_aclararon_todas_las_dudas_de_la_compra_aquilaci_n"
+                android:textSize="24sp" />
+
+            <RadioGroup
+                android:id="@+id/grupoRadioRespuestasPregunta3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButtonResultadoSiPregunta3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="05dp"
+                    android:text="@string/si" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonreResultadoNoPregunta3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="05dp"
+                    android:text="@string/no" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewPregunta4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="¿Cómo catalogas la demostración de los autos?"
+                android:textSize="24sp" />
+
+            <RadioGroup
+                android:id="@+id/grupoRadioRespuestasPregunta4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButtonResultadoBuenoPregunta4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="05dp"
+                    android:text="@string/bueno" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonreResultadoRegularPregunta4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="05dp"
+                    android:text="@string/regular" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonreResultadoMaloPregunta4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="05dp"
+                    android:text="@string/malo" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textViewPregunta5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/qu_mejoras_harias_al_servicio"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextRespuestaPregunta5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_border"
+                android:drawablePadding="20dp"
+                android:hint="@string/ingresa_tu_respuesta"
+                android:padding="20dp"/>
+
+            <Button
+                android:id="@+id/buttonEnviarEncuesta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_bg"
+                android:drawablePadding="20dp"
+                android:padding="20dp"
+                android:text="@string/enviar"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:drawableEnd="@drawable/ic_baseline_send_white"/>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
